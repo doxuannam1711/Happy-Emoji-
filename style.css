@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap'); 
+body{
+    background-color: aqua;
+}
+.emoji{
+    width:250px;
+    height:250px;
+    background-color:#FFB817;
+    border-radius:50%;
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.l-eye{
+    width: 40px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top:70px;
+    left:60px;
+}
+.r-eye{
+    width: 40px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    top:10px;
+    left:140px;
+}
+.mouth{
+    width: 100px;
+    height:50px;
+    background-color: black;
+    border-radius: 0px 0px 50px 50px;/*top-left,top-right,bottom-right,bottom-left(follow clockwise)*/
+    position:relative;
+    top:30px;
+    left:70px;
+    overflow: hidden;
+}
+.tongue{
+    width:80px;
+    height:40px;
+    background-color: red;
+    border-radius: 50px 50px 0px 0px;
+    position: relative;
+    left:10px;
+    top:10px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    font-family: 'Otomanopee One', sans-serif;
+}
